@@ -1,0 +1,18 @@
+.graphtypes-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  grid-auto-rows: 1fr;
+  gap: 15px;
+  row-gap: 15px;
+}
+
+.graph-container {
+  /* background-color: purple; */
+  padding: 10px;
+  border: solid 1px black;
+}

@@ -1,0 +1,16 @@
+line chart:-
+x-axis: Labels: []
+y axis: takes automatically based upon data points :data: []
+label: label for all data points for which we are measuring : " "
+fill: true | false
+borderColor: rgb(): color of line formed
+
+
+
+data {
+  Labels,
+  datasets: [{
+    label:
+  }]
+}
+

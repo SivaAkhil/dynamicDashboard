@@ -1,0 +1,16 @@
+.createdashboard-container {
+  /* background-color: red; */
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createdashboard-new-button {
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}

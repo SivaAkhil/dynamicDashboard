@@ -1,0 +1,27 @@
+.grapharea-container {
+  /* background-color: aqua; */
+  /* position: absolute; */
+  /* right: 0;
+  bottom: 0; */
+  width: 100%;
+  /* height: calc(100% - 70px); */
+  height: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}

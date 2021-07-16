@@ -1,0 +1,19 @@
+.profileavatar-container {
+  /* position: absolute; */
+  /* right: 25px;
+  top: 15px; */
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.profileavatar-text-container {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
